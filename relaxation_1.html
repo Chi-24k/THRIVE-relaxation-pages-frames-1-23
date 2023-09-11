@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://kit.fontawesome.com/1791197663.js" crossorigin="anonymous"></script>
+  <title>Relaxation Page Frame 1</title>
+</head>
+<body class="bg-[#D4DDCC]" scroll-smooth>
+
+  <!-- NAV-BAR -->
+  <header class="py-4 px-4 bg-[#4D732A] sticky top-0 z-50">
+    <div class="flex justify-between md:md:hidden">
+        <img class="w-8 h-8" src="images/back_icon.png" alt="back icon">
+        <img class="w-8 h-8" src="images/hamburger.png" alt="hamburger">
+    </div>
+
+    <div class="hidden md:flex justify-end items-center">
+        <ul class="text-white flex justify-between gap-4">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Therapy</a></li>
+            <li><a href="/">Community</a></li>
+        </ul>
+        <img src="images/hamburger.png" class="w-12 ml-6" alt="">
+    </div>
+</header>
+
+
+  <main id="main-section">  
+    <div class="w-full grid grid-cols-5">
+      <!-- SIDE-PROFILE DASHBOARD -->
+      <aside class="bg-[#F5F5F5]  top-0 left-0 h-screen transition-transform shadow-[0_3px_10px_rgb(0,0,0,0.2)] m-4 rounded-md">
+        <div class="h-full px-4 py-5 overflow-y-auto">
+          <div class="w-full flex space-x-3 mb-12">
+            <div>
+              <i class="fa-solid fa-circle-user text-5xl text-[#314C1C]"></i>
+            </div>
+  
+            <div>
+              <p class="text-xs text-[#314C1C]">Welcome Back</p>
+              <p class="text-lg text-[#314C1C] font-semibold">SARAH WILLIAMS</p>
+            </div>
+          </div>
+  
+          <ul class="space-y-4 mb-9  text-[#314C1C] font-semibold">
+            <li><a href=""><i class="fa-solid fa-house text-[#314C1C]"></i>&nbsp;&nbsp;  Home</a></li>
+            <li><a href=""><i class="fa-solid fa-users text-[#314C1C]"></i>&nbsp;&nbsp;  Community</a></li>
+            <li><a href=""><i class="fa-solid fa-bed text-[#314C1C]"></i>&nbsp;&nbsp;  Relaxation</a></li>
+            <li><a href=""><i class="fa-solid fa-book-open-reader text-[#314C1C]"></i>&nbsp;&nbsp;  Resources</a></li>
+            <li><a href=""><i class="fa-solid fa-user-doctor text-[#314C1C]"></i>&nbsp;&nbsp;  Therapy</a></li>
+            <li><a href=""><i class="fa-solid fa-gear text-[#314C1C]"></i>&nbsp;&nbsp;  Settings</a></li>
+          </ul>
+
+          <button type="button" class=" text-[#314C1C] border border-[#314C1C] p-4 px-11  rounded-md">
+            <div>
+              <i class="fa-solid fa-circle-plus text-3xl"></i>
+            </div>
+            <p class ="text-[#314C1C] font-semibold">Mood Tracker</p>
+          </button>
+        </div>
+
+      </aside>
+  
+      <!-- RELAXATION OPTIONS SECTION -->
+      <section class="bg-[#F5F5F5] h-screen shadow-[0_3px_10px_rgb(0,0,0,0.2)] m-4 rounded-md col-span-4">
+        <div class="h-full px-3 py-4 overflow-y-auto">
+          <div>
+            <p class="text-[#314C1C] text-2xl px-4 pb-3 font-bold">RELAXATION</p>
+            <p class="text-[#314C1C] text-lg px-4 font-semibold ">EXPLORE YOUR RELAXATION TECHNIQUES</p>
+          </div>
+  
+          <div class="text-center">
+            <div class="p-8 pt-28" >
+              <button type="button" class=" text-[#314C1C] border border-[#314C1C] p-4 px-20 rounded-md">
+                <p class="font-semibold text-lg">Categories</p>
+                <div>
+                  <i class="fa-solid fa-layer-group text-2xl"></i>
+                </div>
+                <p>Find different exercise categories</p>
+              </button>
+            </div>
+            
+            <div>
+              <button type="button" class=" text-[#314C1C] border border-[#314C1C] p-4 px-16 rounded-md">
+                <p class="font-semibold text-lg">Favourites</p>
+                <div>
+                  <i class="fa-solid fa-heart text-2xl"></i>
+                </div>
+                <p class="text-sm">Quick access to all your favourite exercises!</p>
+              </button>
+            </div>
+            
+          </div>
+        </div>
+        
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>
